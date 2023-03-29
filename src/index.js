@@ -40,7 +40,14 @@ const getDevPost = async ({ user }) => {
   }
 };
 
+/**
+ *
+ * @param {*} param0
+ */
+const getMirrorXYZPost = async ({ user }) => {};
+
 module.exports = {
   getMediumPost: getMediumPost,
   getDevPost: getDevPost,
+  getMirrorXYZPost: getMirrorXYZPost,
 };
